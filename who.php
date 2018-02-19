@@ -22,7 +22,7 @@
                 echo "<input type='text' name='friends[]' id='subject'/>";
                 //rray_push($friend_array, $_GET['friends']);
             }
-            echo "<input type='submit' value='add'/>";
+            echo "<input id='woop' type='submit' value='Woop!'/>";
             echo "</form>";
             //echo "</br>";
             

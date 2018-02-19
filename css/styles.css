@@ -91,3 +91,16 @@ footer {
 .page-borders-thin #footer, .page-borders-thin .info-footer-wrapper {
     border-top-width: 0px;
  }
+ 
+#woop {
+    color: white;
+    font-family: Montserrat;
+    background-color: #555555;
+    border: none;
+    padding: 4px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 1%;
+}
