@@ -14,6 +14,10 @@ h3 {
     font-family: 'Sorts Mill Goudy';
 }
 
+#whotitle {
+    margin-right: 15%;
+}
+
 body {
     text-align: center;
 }
@@ -69,3 +73,21 @@ img {
     padding-right: 10%;
     padding-left: 10%;
 }
+
+div {
+    border: solid;
+    border-color: black;
+    border-width: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    border: none;
+}
+
+.page-borders-thin #footer, .page-borders-thin .info-footer-wrapper {
+    border-top-width: 0px;
+ }

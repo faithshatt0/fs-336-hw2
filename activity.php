@@ -46,4 +46,11 @@
         
     </body>
     
+    <footer>
+        <hr>
+        Internet Programming. 2018
+        <br/>
+        <img width='100' src= "https://csumb.edu/sites/default/files/styles/profile_large/public/photo_1_6.jpg?itok=N4I4g9Wl">
+    </footer>
+    
 </html>
