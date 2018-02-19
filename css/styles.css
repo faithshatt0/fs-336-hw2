@@ -1,0 +1,71 @@
+h1 {
+    font-family: 'Montserrat';
+    border-style: solid;
+    border-width: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    font-family: 'Sorts Mill Goudy';
+}
+
+h3 {
+    font-family: 'Sorts Mill Goudy';
+}
+
+body {
+    text-align: center;
+}
+
+#pic1, #pic2, #pic3 {
+    float: left;
+}
+
+#pic1 {
+    margin-left: 20%;
+}
+
+#pic4 {
+    clear: both;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#again {
+    color: white;
+    font-family: Montserrat;
+    background-color: #555555;
+    border: none;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+    float: left;
+}
+
+#who {
+    color: white;
+    font-family: 'Montserrat';
+    background-color: #555555;
+    border: none;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+    position: relative;
+    float: right;
+}
+
+#youshould {
+    text-align: center;
+    display: inline;
+    padding-right: 10%;
+    padding-left: 10%;
+}
