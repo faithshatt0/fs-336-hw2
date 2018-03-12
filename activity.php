@@ -12,7 +12,7 @@
         <h1>Bored?</h1>
         <a id="again" href="index.php" class="button">Let me choose again</a>
         <h2 id="youshould">You should . . . </h2>
-        <a id="who" href="who.php" class="button">Who should I go with?</a>
+        <a id="who" href="howMany.php" class="button">Who should I go with?</a>
         
         <?php
             

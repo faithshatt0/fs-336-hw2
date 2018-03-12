@@ -1,3 +1,9 @@
+<?php
+    $firstName= $_POST['firstname'];
+    $timeOfDay= $_POST['time'];
+    $social= $_POST['social'];
+?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -11,23 +17,27 @@
     <body><center>
         <h1>Bored?</h1>
         <div>
-        <h2>Where do you wanna go?</h2>
+        <h2>Let's learn a few things about you</h2>
         
-        
-            <a href="activity.php?location=beach">
-            <img id="pic1" width="300" height="250" title="The beach" src="img/beach/beachcover.gif">
-            
-            <a href="activity.php?location=city">
-            <img id="pic2" width="300" height="250" title="The city" src="img/city/citycover.gif">
-            
-            <a href="activity.php?location=forest">
-            <img id="pic3" width="300" height="250" title="Ooh, Nature!" src="img/forest/forestcover.gif">
-            </br>
-            </br>
-            <a href="activity.php?location=''">
-            <img id="pic4" width="300" height="250" title="Not sure..." src="img/idk.jpg">
-            </a>
-            <h3>I don't care</h3>
+            <h3>What is your name?</h3>
+            <form action='where.php' method='post'>
+                <input type='text' name='firstname'>
+            <h3>When would you like to go?</h3>
+                <label><input type="radio" name="time" value="day"> Day</label>
+                <label><input type="radio" name="time" value="night"> Night</label>
+            <h3>Are you a social person?</h3>
+                <label><input type="radio" name="social" value="yes"> Yes</label>
+                <label><input type="radio" name="social" value="no"> No</label>
+            <h3>Select your economic state:</h3>
+                <select name="formMoney">
+                  <option value="">Select...</option>
+                  <option value="alot">I can spend a lot</option>
+                  <option value="alittle">I can spend a little</option>
+                  <option value="poor">I'm poor</option>
+                </select>
+                
+                </br></br><input type='submit'>
+            </form>
           
         </div>
     </center></body>
